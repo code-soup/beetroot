@@ -1,5 +1,8 @@
 # Ubuntu 24.04 Development Image
 
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/code-soup/beetroot?style=flat-square)
+![License](https://img.shields.io/github/license/code-soup/beetroot?style=flat-square)
+
 This Docker image is based on the official Ubuntu 24.04 LTS image and provides a comprehensive, lightweight development environment. It is specifically created for building and deploying WordPress plugins and themes by Code Soup and is used as part of the Ziploy GitHub Action workflow.
 
 ## Features
