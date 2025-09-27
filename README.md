@@ -16,7 +16,7 @@ This Docker image is based on the official Ubuntu 24.04 LTS image and provides a
     -   **PHP:** 8.3.6 (CLI, XML, cURL)
     -   **Composer:** 2.8.6
     -   **yarn:** 1.22.22
-    -   **Node.js:** v20.18.3
+    -   **Node.js:** v22.x
 
 ## Package Installation & Configuration
 

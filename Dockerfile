@@ -33,7 +33,7 @@ RUN ln -sf /usr/bin/python3 /usr/bin/python && \
     echo 'export PATH="/usr/local/bin:/usr/bin:$PATH"' >> /etc/environment
 
 # Install Node.js 23
-RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash - && \
+RUN curl -fsSL https://deb.nodesource.com/setup_22.x | bash - && \
     apt-get install -y --no-install-recommends nodejs && \
     rm -rf /var/lib/apt/lists/*
 
